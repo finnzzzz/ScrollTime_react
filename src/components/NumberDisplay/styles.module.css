@@ -12,7 +12,7 @@
 .title {
   color: gray;
   font-size: 12px;
-  transform: scale(0.8);
+  transform: scale(0.9);
   transform-origin: left;
   margin-bottom: 8px;
 }
@@ -67,14 +67,18 @@
   border: 1px solid grey;
 }
 
+.btn:hover{
+  background: #ddd;
+}
+
 .setting {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 }
 
 .cancel {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 }
 
 .range {
